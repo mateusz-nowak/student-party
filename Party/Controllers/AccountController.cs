@@ -150,34 +150,34 @@ namespace Party.Controllers
             switch (createStatus)
             {
                 case MembershipCreateStatus.DuplicateUserName:
-					return "Użytkownik o takiej nazwie już istnieje. Wybierz inną nazwę użytkownika";
+					          return "Użytkownik o takiej nazwie już istnieje. Wybierz inną nazwę użytkownika";
 
                 case MembershipCreateStatus.DuplicateEmail:
-					return "Użytkownik o takim adresie e-mail już istnieje. Wybierz inny adres e-mail";
+					          return "Użytkownik o takim adresie e-mail już istnieje. Wybierz inny adres e-mail";
 
                 case MembershipCreateStatus.InvalidPassword:
-					return "Hasło podane przez Ciebie jest nieprawidłowe";
+					          return "Hasło podane przez Ciebie jest nieprawidłowe";
 
                 case MembershipCreateStatus.InvalidEmail:
-					return "Adres e-mail podany przez Ciebie jest nieprawidłowy";
+					          return "Adres e-mail podany przez Ciebie jest nieprawidłowy";
 
                 case MembershipCreateStatus.InvalidAnswer:
-					return "Odpowiedź na hasło jest niepoprawna. Spróbuj ponownie";
+					          return "Odpowiedź na hasło jest niepoprawna. Spróbuj ponownie";
 
                 case MembershipCreateStatus.InvalidQuestion:
-					return "Pytanie do hasła jest nieprawidłowe. Spróbuj ponownie";
+					          return "Pytanie do hasła jest nieprawidłowe. Spróbuj ponownie";
 
                 case MembershipCreateStatus.InvalidUserName:
-					return "Niepoprawna nazwa użytkownika. Spróbuj ponownie";
+					          return "Niepoprawna nazwa użytkownika. Spróbuj ponownie";
 
                 case MembershipCreateStatus.ProviderError:
-					return "Podczas logowania wystąpił nieznany błąd. Spróbuj ponownie. Jeżeli problem będzie się powtarzał poinformuj o tym administratora";
+					          return "Podczas logowania wystąpił nieznany błąd. Spróbuj ponownie. Jeżeli problem będzie się powtarzał poinformuj o tym administratora";
 
                 case MembershipCreateStatus.UserRejected:
-					return "Stworzenie użytkownika zostało wstrzymane. Spróbuj ponownie. Jeżeli problem będzie się powtarzał poinformuj o tym administratora";
+					          return "Stworzenie użytkownika zostało wstrzymane. Spróbuj ponownie. Jeżeli problem będzie się powtarzał poinformuj o tym administratora";
 
                 default:
-					return "Wystąpił nieznany błąd. Spróbuj ponownie. Jeżeli problem będzie się powtarzał poinformuj o tym administratora";
+					          return "Wystąpił nieznany błąd. Spróbuj ponownie. Jeżeli problem będzie się powtarzał poinformuj o tym administratora";
             }
         }
         #endregion
