@@ -156,10 +156,10 @@ namespace Party.Controllers
 					          return "Użytkownik o takim adresie e-mail już istnieje. Wybierz inny adres e-mail.";
 
                 case MembershipCreateStatus.InvalidPassword:
-					          return "Hasło podane przez Ciebie jest nieprawidłowe.";
+					          return "Hasło podane przez ciebie jest nieprawidłowe.";
 
                 case MembershipCreateStatus.InvalidEmail:
-					          return "Adres e-mail podany przez Ciebie jest nieprawidłowy.";
+					          return "Adres e-mail podany przez ciebie jest nieprawidłowy.";
 
                 case MembershipCreateStatus.InvalidAnswer:
 					          return "Odpowiedź na pytanie pomocnicze jest niepoprawne. Spróbuj ponownie.";
