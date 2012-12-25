@@ -162,7 +162,7 @@ namespace Party.Controllers
 					          return "Adres e-mail podany przez ciebie jest nieprawidłowy.";
 
                 case MembershipCreateStatus.InvalidAnswer:
-					          return "Odpowiedź na pytanie pomocnicze jest niepoprawne. Spróbuj ponownie.";
+					          return "Odpowiedź na pytanie pomocnicze jest niepoprawna. Spróbuj ponownie.";
 
                 case MembershipCreateStatus.InvalidQuestion:
 					          return "Pytanie pomocnicze do hasła jest nieprawidłowe. Spróbuj ponownie.";
